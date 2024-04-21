@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+header img {
+  width: 150px;
+  padding: 10px;
+}
+header h1 {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #d1bf6a;
+}
+header nav {
+  background-color: #f9f9f1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 350px;
+  z-index: 1000;
+}
+header nav .dropdown-menu {
+  background-color: #f9f9f1;
+  position: absolute;
+  z-index: 1000;
+}
+
+form .btn {
+  background-color: #e3db94;
+  border: none;
+}
+form .btn:hover {
+  background-color: #8f7827;
+}
+
+h2, h3 {
+  font-family: "Shantell Sans", cursive;
+}
+
+footer {
+  background-color: #dacd7f;
+  color: #f9f9f1;
+  margin-top: auto;
+}
+footer div.col {
+  padding: 10px;
+  margin: 20px;
+}
+footer .footer_nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+footer .footer_nav a {
+  color: #8f7827;
+}
+footer .footer_nav a:visited {
+  color: #8f7827;
+}
+footer .footer_nav a:hover {
+  background-color: #8f7827;
+  color: #d1bf6a;
+  border-radius: 5px;
+}
