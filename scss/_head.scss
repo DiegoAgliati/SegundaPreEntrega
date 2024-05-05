@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    padding: 10px;
+    img {
+        width: 150px;
+        padding: 10px;
+    }
+    h1 {
+        font-family: "Whisper", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: $tercero;
+    }
+    nav {
+        background-color: $body;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 350px;
+        z-index: 1000;
+        .dropdown-menu{
+            background-color: $body;
+            position: absolute;
+            z-index: 1000;
+        }
+    }
+    .btn{
+        color: $body;
+    }
+}

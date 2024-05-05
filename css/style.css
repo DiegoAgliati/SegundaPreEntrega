@@ -39,6 +39,9 @@ header nav .dropdown-menu {
   position: absolute;
   z-index: 1000;
 }
+header .btn {
+  color: #f9f9f1;
+}
 
 form .btn {
   background-color: #e3db94;
@@ -48,8 +51,26 @@ form .btn:hover {
   background-color: #8f7827;
 }
 
-h2, h3 {
+h2, h3, h5 {
   font-family: "Shantell Sans", cursive;
+}
+
+.vitrina {
+  padding: 20px;
+}
+.vitrina .imagen-container {
+  display: flex;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.vitrina .imagen-container img {
+  max-width: 100%;
+  margin-right: 10px;
+}
+.vitrina .imagen-container p {
+  font-size: 1rem;
+  flex: 1;
 }
 
 footer {
@@ -77,3 +98,5 @@ footer .footer_nav a:hover {
   color: #d1bf6a;
   border-radius: 5px;
 }
+
+/*# sourceMappingURL=style.css.map */
