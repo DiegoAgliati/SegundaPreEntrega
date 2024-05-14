@@ -1,6 +1,6 @@
 footer {
-    background-color: $segundo;
-    color: $body;
+    background-color: $tercero;
+    color: $fuente;
     margin-top: auto;
 
     div.col {
@@ -24,7 +24,7 @@ footer {
 
             &:hover {
                 background-color: $link;
-                color: $tercero;
+                color: $fuente;
                 border-radius: 5px;
             }
         }

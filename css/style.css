@@ -74,8 +74,8 @@ h2, h3, h5 {
 }
 
 footer {
-  background-color: #dacd7f;
-  color: #f9f9f1;
+  background-color: #d1bf6a;
+  color: #f1f1d7;
   margin-top: auto;
 }
 footer div.col {
@@ -95,7 +95,7 @@ footer .footer_nav a:visited {
 }
 footer .footer_nav a:hover {
   background-color: #8f7827;
-  color: #d1bf6a;
+  color: #f1f1d7;
   border-radius: 5px;
 }
 
