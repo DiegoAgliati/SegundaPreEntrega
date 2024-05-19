@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col">
                 <a href="../index.html"><img src="../img/logo.png" alt="Logo"></a>
-                <h1 class="display-1 text-center">Recetas Simples | Nosotros</h1>
+                <h1 class="display-1 text-center">Recetas Simples</h1>
                 <nav class="navbar navbar-expand-lg ">
                   <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,31 +56,63 @@
         </div>
     </header>
     <main>
-        <main>
-            <section id="about" class="container">
-                <h2>Bienvenido a Recetas Simples</h2>
-                <p>Descubre Recetas Sencillas para Cocinar en casa</p>
-        
-                <h3>Qué ofrecemos</h3>
-                <ul>
-                    <li>Una variedad de recetas fáciles de seguir.</li>
-                    <li>Ingredientes comunes y accesibles.</li>
-                    <li>Instrucciones paso a paso para cocinar con confianza.</li>
-                    <li>Consejos y trucos para mejorar tus habilidades culinarias.</li>
-                    <li>Inspiración para todas tus comidas, desde el desayuno hasta la cena.</li>
-                </ul>
-        
-                <h3>Por qué elegirnos</h3>
-                <ul>
-                    <li>Recetas probadas y aprobadas por nuestros chefs.</li>
-                    <li>Enfoque en la simplicidad y la accesibilidad.</li>
-                    <li>Adaptado para todos los niveles de habilidad, desde principiantes hasta chefs experimentados.</li>
-                    <li>Contenido actualizado regularmente con nuevas recetas y sugerencias.</li>
-                    <li>Comunidad activa de amantes de la cocina para compartir ideas y consejos.</li>
-                </ul>
-            </section>
-        </main>
-        
+      <!-- Contenido principal -->
+      <div class="container my-5">
+          <div class="row">
+              <div class="col-md-6">
+                  <section id="about" class="container">
+                      <h2>Bienvenido a Recetas Simples</h2>
+                      <p>Descubre Recetas Sencillas para Cocinar en casa</p>
+              
+                      <h3>Qué ofrecemos</h3>
+                      <ul>
+                          <li>Una variedad de recetas fáciles de seguir.</li>
+                          <li>Ingredientes comunes y accesibles.</li>
+                          <li>Instrucciones paso a paso para cocinar con confianza.</li>
+                          <li>Consejos y trucos para mejorar tus habilidades culinarias.</li>
+                          <li>Inspiración para todas tus comidas, desde el desayuno hasta la cena.</li>
+                      </ul>
+              
+                      <h3>Por qué elegirnos</h3>
+                      <ul>
+                          <li>Recetas probadas y aprobadas por nuestros chefs.</li>
+                          <li>Enfoque en la simplicidad y la accesibilidad.</li>
+                          <li>Adaptado para todos los niveles de habilidad, desde principiantes hasta chefs experimentados.</li>
+                          <li>Contenido actualizado regularmente con nuevas recetas y sugerencias.</li>
+                          <li>Comunidad activa de amantes de la cocina para compartir ideas y consejos.</li>
+                      </ul>
+                  </section>
+              </div>
+              <!-- Carousel (col-12 en dispositivos móviles, col-md-6 en escritorio) -->
+              <div class="col-md-6 order-first order-md-last">
+                  <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="../img/info/1.jpg" class="d-block w-100" alt="Chef preparando mise en place">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/info/2.jpg" class="d-block w-100" alt="Chef mixeando tomates">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/info/3.jpg" class="d-block w-100" alt="Chef emplatando">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/info/4.jpg" class="d-block w-100" alt="Chef terminando presentacion">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </main>
   
     <!-- Footer -->

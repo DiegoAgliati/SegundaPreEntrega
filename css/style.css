@@ -14,9 +14,11 @@ body {
 header {
   text-align: center;
   padding: 10px;
+  position: relative;
 }
 header img {
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
   padding: 10px;
 }
 header h1 {
@@ -33,6 +35,13 @@ header nav {
   width: 100%;
   max-width: 350px;
   z-index: 1000;
+}
+header nav .navbar-toggler {
+  border: none;
+}
+header nav .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }
 header nav .dropdown-menu {
   background-color: #f9f9f1;
@@ -60,19 +69,34 @@ h2, h3, h5 {
 }
 .vitrina .imagen-container {
   display: flex;
+  flex-direction: column;
   border: 2px solid #ddd;
   margin-bottom: 20px;
   padding: 10px;
 }
 .vitrina .imagen-container img {
   max-width: 100%;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .vitrina .imagen-container p {
   font-size: 1rem;
   flex: 1;
 }
 
+@media (max-width: 768px) {
+  .vitrina {
+    padding: 10px;
+  }
+  .vitrina .imagen-container {
+    padding: 5px;
+  }
+  .vitrina .imagen-container p {
+    font-size: 0.9rem;
+  }
+  .carousel {
+    margin-bottom: 0;
+  }
+}
 footer {
   background-color: #d1bf6a;
   color: #f1f1d7;
